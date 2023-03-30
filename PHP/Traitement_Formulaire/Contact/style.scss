@@ -1,0 +1,26 @@
+$textColor: white;
+$background: black;
+$bgInput: rgba(255, 0, 0, 0.45);
+$bgInputValid: green;
+
+form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    fieldset{
+        background: $background;
+        label,input {
+            color: $textColor;
+        }
+        input,textarea,select {
+            background: $bgInput;
+        }
+        input:valid,textarea:valid,select:valid {
+            background: $bgInputValid;
+        }
+    }    
+}
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}

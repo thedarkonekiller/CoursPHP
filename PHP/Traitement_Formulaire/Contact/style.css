@@ -1,0 +1,24 @@
+form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+form fieldset {
+  background: black;
+}
+form fieldset label, form fieldset input {
+  color: white;
+}
+form fieldset input, form fieldset textarea, form fieldset select {
+  background: rgba(255, 0, 0, 0.45);
+}
+form fieldset input:valid, form fieldset textarea:valid, form fieldset select:valid {
+  background: green;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
