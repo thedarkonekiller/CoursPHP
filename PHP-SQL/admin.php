@@ -39,7 +39,10 @@
             <h2>Suppression de produit</h2>
             <form action="./admin_traitement.php" method="post" class="flex flexColumn">
                 <?php echo affiche_select_productName(); ?>
-                <input type="submit" name="supprim" value="Supprimer">
+                <input type="text" name="designation" placeholder="Designation de l'article">
+                <input type="url" name="img" placeholder="Lien vers l'image">
+                <input type="number" step="0.01" name="prix" placeholder="Prix de l'article">
+                <input type="submit" name="modify" value="Modifier">
             </form>
         </section>
     </main>
